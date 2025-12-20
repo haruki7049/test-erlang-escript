@@ -2,6 +2,6 @@
 -export([main/1]).
 
 %% Entry point for the escript
-main(Args) ->
-    io:format("Hello from escript! Args: ~p~n", [Args]),
-    erlang:halt(0).
+main(_Args) ->
+    application:start(server),
+    timer:sleep(infinity).
