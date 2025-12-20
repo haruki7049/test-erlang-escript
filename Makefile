@@ -1,4 +1,4 @@
-PROJECT = test-erlang-escript
+PROJECT = test_erlang_escript
 PROJECT_DESCRIPTION = New project
 PROJECT_VERSION = 0.1.0
 
