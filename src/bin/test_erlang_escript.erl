@@ -3,5 +3,5 @@
 
 %% Entry point for the escript
 main(_Args) ->
-    application:start(server),
+    {ok, _} = application:ensure_all_started(test_erlang_escript),
     timer:sleep(infinity).
