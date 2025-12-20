@@ -1,0 +1,4 @@
+/.erlang.mk/
+/test-erlang-escript.d
+test-erlang-escript
+/ebin/
