@@ -1,3 +1,9 @@
+# Nix
+/.direnv/
+result*
+result-*
+
+# Erlang
 /.erlang.mk/
 /test_erlang_escript.d
 test_erlang_escript
