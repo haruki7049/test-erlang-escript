@@ -2,7 +2,10 @@
 -export([main/1]).
 
 main(_Args) ->
-    lib:echo().
+    application:ensure_all_started(server_app),
+    timer:sleep(infinity).
+
+    %lib:echo().
 
     %I = list_to_integer(Value),
     %F = factorial(I),
