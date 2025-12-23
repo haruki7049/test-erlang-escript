@@ -2,7 +2,8 @@
 -export([main/1]).
 
 main(_Args) ->
-    application:ensure_all_started(server_app),
+    {ok, Pid} = application:ensure_all_started(server_app),
+    io:format("Started applications: ~p~n", [Pid]),
     timer:sleep(infinity).
 
     %lib:echo().
