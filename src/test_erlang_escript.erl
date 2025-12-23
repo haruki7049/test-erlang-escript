@@ -4,4 +4,6 @@
 main(_Args) ->
     {ok, _} = application:ensure_all_started(cowboy),
     {ok, Pid} = application:ensure_all_started(server),
-    io:format("Started: ~w~n", [Pid]).
+    io:format("Started: ~w~n", [Pid]),
+
+    timer:sleep(infinity).
