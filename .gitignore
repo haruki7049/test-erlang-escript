@@ -5,7 +5,8 @@ result-*
 
 # Erlang
 /.erlang.mk/
-/test_erlang_escript.d
+/*.d
+/*.dump
 test_erlang_escript
 /ebin/
 /deps/
