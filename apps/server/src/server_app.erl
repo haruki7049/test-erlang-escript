@@ -15,7 +15,7 @@ start(_StartType, _StartArgs) ->
         #{env => #{dispatch => Dispatch}}
     ),
     
-    webapp_sup:start_link().
+    server_sup:start_link().
 
 stop(_State) ->
     ok = cowboy:stop_listener(http).

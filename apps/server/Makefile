@@ -2,6 +2,9 @@ PROJECT = server
 PROJECT_DESCRIPTION = New project
 PROJECT_VERSION = 0.1.0
 
+DEPS = cowboy
+dep_cowboy_commit = 2.14.2
+
 # Make sure we know where the applications are located.
 ROOT_DIR ?= ../..
 APPS_DIR ?= ..
