@@ -1,8 +1,6 @@
-PROJECT = bin
+PROJECT = server
 PROJECT_DESCRIPTION = New project
 PROJECT_VERSION = 0.1.0
-
-LOCAL_DEPS = server
 
 # Make sure we know where the applications are located.
 ROOT_DIR ?= ../..

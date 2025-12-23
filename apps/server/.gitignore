@@ -1,0 +1,12 @@
+# Nix
+/.direnv/
+result*
+result-*
+
+# Erlang
+/.erlang.mk/
+/*.d
+/*.dump
+test_erlang_escript
+/ebin/
+/deps/
